@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Orbitron');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#body-main{
+    font-family: 'Orbitron', sans-serif;
+    color: #EEE;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: relative;
+}
+#nav-grad{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    border-bottom: #071b01 1px solid;
+}
+#nav-grad .logo{
+    flex:1;
+    color: #FFF;
+}
+#nav-grad ul{
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse
+}
+#nav-grad ul li{
+    list-style: none;
+    justify-content: flex-end;
+    color: #111;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #EEE;
+}
+
+#main-content{
+    background-image: url(https://images.pexels.com/photos/163351/girl-boxer-ring-boxing-pear-163351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111;
+    background-position: center;
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+}
+#main-content h1{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 40%;
+    left: 50%;
+    font-size: 4rem;
+    border: #EEE solid 6px;
+    padding: 7px;
+    width: 60%;
+}
+/* #main-content p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    font-family: 'Anton', sans-serif;
+} */
+.side-content{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 30vw;
+    overflow: hidden;
+}
+.side-content .info{
+    height: 45vh;
+    background-color: #071b01;
+background-image: linear-gradient(193deg, #071b01 0%, #669259 100%);
+ }
+.side-content .info h1{
+    text-align: center;
+    padding-top: 7rem;
+}
+.side-content .btn-discover{
+    background-color: #071b01;
+    background-image: linear-gradient(19deg, #071b01 0%, #DDD 100%);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    transition: .2s ease-out;
+    color: #111;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+button:hover{
+    box-shadow: 0px 2px 3px 4px rgba(45, 45, 45, .4);
+    transform: scale(1.1);
+}
+.side-content .info2{
+    height: 45vh;
+    background-color: #e78;
+}
+
+
+/* carousel */
+#main-carousel{
+    width: 100%;
+    margin: 0;
+}

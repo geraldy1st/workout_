@@ -18,7 +18,7 @@
     height: 5vh;
     padding: 5px;
     display: flex;
-    border-bottom: #071b01 1px solid;
+    border-bottom:rgba(91, 94, 71,1) 1px solid;
 }
 #nav-grad .logo{
     flex:1;
@@ -58,14 +58,23 @@
     padding: 7px;
     width: 60%;
 }
-/* #main-content p{
+#main-content .extraInfo{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translateX(-50%);
     padding: 7px;
     font-family: 'Anton', sans-serif;
-} */
+}
+#main-content .extraInfo .line{
+    background-color:rgba(91, 94, 71,1);
+    width: 100px;
+    height: 1px;
+    display: inline-block;
+}
+#main-content .extraInfo span{
+    color:rgba(91, 94, 71,1);
+}
 .side-content{
     font-family: 'Anton', sans-serif;
     position: absolute;
